@@ -6,7 +6,11 @@ namespace Artem_Topchii_Lection7_Console
     {
         static void Main()
         {
+            ClassDollars firstValue = new ClassDollars(120, 125);
+            ClassDollars secondValue = new ClassDollars(25, 125);
+            ClassDollars result = new ClassDollars();
 
+            result = firstValue - secondValue;
         }
     }
 }
